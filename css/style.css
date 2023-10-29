@@ -59,7 +59,12 @@ table {
     border-radius: 5px;
     margin-bottom: 20px;
 }
-#table_head {
+thead {
     font-size: 150%;
     background-color: #6819b240;
+    border: 2px none;
+    border-radius: 5px;
+}
+tr:nth-child(even) {
+    background-color: #6819b227;
 }
